@@ -1,0 +1,126 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ================= BODY ================= */
+body {
+     background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("images/hero.jpg") no-repeat center/cover;
+    position: relative;
+    color: #333;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("restaurant-interior.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+/* ================= NAVBAR ================= */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 70px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* NAV LINKS */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+/* ================= HERO TEXT ================= */
+.hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-text h2 {
+    font-size: 72px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #dddddd;
+    margin-bottom: 35px;
+}
+
+/* ================= BUTTON ================= */
+.btn {
+    display: inline-block;
+    padding: 14px 40px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    color: #000000;
+}
+
+/* ================= FEATURES SECTION ================= */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+}
+
+.box {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
